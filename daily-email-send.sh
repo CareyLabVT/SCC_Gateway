@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Daily Email Script
+# Executd from the Master Node
+# Sends daily emails with attachments to recepients.
 # Usage: Add the following line to crontab to run it every day at 7:30:
 # 30 07 * * * daily-email-send.sh
 
