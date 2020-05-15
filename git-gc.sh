@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Git Garbage Collection Script
+# Executd from the Gateway
+# Runs Git Garbage Collector
 # Usage: Add the following line to crontab to run it on the first day of each month at 12:00 AM
 # 00 00 01 * * git-gc.sh
 
