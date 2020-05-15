@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Git Monitoring Script
+# Executd from the Master Node
+# Monitors Git repositories for updates. If they are not updated as frequent as expected, sends an alert email to recepients.
 # Usage: Add the following line to crontab to run it every hour:
 # 00 * * * * monitor.sh
 
