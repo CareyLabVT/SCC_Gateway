@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # NOAA Download and Push Script
+# Executd from the Master Node
+# Download NOAA data for specified locations and pushes the files to their respective repositories/branches.
 # Usage: Add the following line to crontab to run it every 6 hours:
 # 00 /6 * * * noaa-git.sh
 
