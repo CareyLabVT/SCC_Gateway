@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Git Script
+# Executd from the Gateway
+# Copies the datalogger data to local Git repositories and then stages them and pushes them to the remote Git repository.
 # Usage: Add the following line to crontab to run it every 6 hours:
 # 00 /6 * * * git.sh
 
