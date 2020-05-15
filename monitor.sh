@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # System Monitor Script
+# Executd from the Gateway
+# Monitors the status of the gateway.
 # Usage: Add the following line to crontab to run it every 6 hours:
 # 00 /6 * * * monitor.sh
 
