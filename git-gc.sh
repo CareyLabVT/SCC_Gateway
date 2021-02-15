@@ -10,7 +10,6 @@ location=fcre-catwalk
 logfile=/data/$HOSTNAME-logs/git-gc.log
 datadir=/data/$location-data
 logdir=/data/$HOSTNAME-logs
-#git_exec=/home/scc/applications/git-retry.sh
 
 timestamp=$(date +"%D %T %Z")
 
