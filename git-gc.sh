@@ -3,10 +3,11 @@
 # Git Garbage Collection Script
 # Executd from the Gateway
 # Runs Git Garbage Collector
+# Edit location Prior to Executing the Script
 # Usage: Add the following line to crontab to run it on the first day of each month at 12:00 AM
 # 00 00 01 * * git-gc.sh
 
-location=fcre-catwalk
+location=fcre-catwalk # Edit Accordingly
 logfile=/data/$HOSTNAME-logs/git-gc.log
 datadir=/data/$location-data
 logdir=/data/$HOSTNAME-logs
